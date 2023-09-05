@@ -1,18 +1,62 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>音频演示</title>
+  <meta charvctk_set="UTF-8">
+  <title>Sound demos for "VibSpeech" </title>
 </head>
+<h2>Sound demos for "VibSpeech:"</h2>
+
 <body>
-    <h1>多条音频演示</h1>
-    <audio controls>
-        <source src="audio1.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <br>
-    <audio controls>
-        <source src="audio2.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+
+    Abstract about VibSpeech.
+
+<h3> </h3>
+
+<div>
+  <h3 id="ood_youtube"> Title: ... </h3>
+  Short Description about ...
+  <table>
+    <thead>
+    <tr>
+      <th>Ground-Truth</th>
+      <th>Raw (NB)</th>
+      <the>Reconstructed (WB)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/gt/celeb1.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/hifigan/celeb1.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/univnet/celeb1.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+
+    <tbody>
+    <tr>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/gt/queen.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/hifigan/queen.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/univnet/queen.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+
+    <tbody>
+    <tr>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/gt/celeb2.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/hifigan/celeb2.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/univnet/celeb2.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+
+    <tbody>
+    <tr>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/gt/media1.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/hifigan/media1.wav" type="audio/wav"></audio></td>
+      <td><audio controls style="width: 225px; height: 50px"><source src="samples/univnet/media1.wav" type="audio/wav"></audio></td>
+    </tr>
+    </tbody>
+  </table><br>
+</div>
+
 </body>
 </html>
+
