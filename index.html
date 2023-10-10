@@ -138,9 +138,28 @@
     </tbody>
   </table><br>
   
-  <p> spk2, The results of different SpeakerEmbedding audio including random noise (Rec#0), 
+  <p> 
+    The <b>Raw (NB)</b> refers to the raw narrowband signals derived from mmWave signals. <br />
+    
+    The <b>Reconstructed (#0)</b> refers to the reconstructed audio by VibSpeech with a speaker-embedding audio (random noise). <br />
+    
+    The <b>Reconstructed (#1)</b> refers to the reconstructed audio by VibSpeech with a speaker-embedding audio#1 
+    <audio controls="controls" controlsList="nodownload" oncontextmenu="return false" style="width: 225px; height: 30px">
+      <source src="samples/speaker_embedding/spk2-embeddingAudio-1.wav" type="audio/wav">
+    </audio> 
+    from Spk B (male). <br />
+    
+    The <b>Reconstructed (#2)</b> refers to the reconstructed audio by VibSpeech with a speaker-embedding audio#2 
+    <audio controls="controls" controlsList="nodownload" oncontextmenu="return false" style="width: 225px; height: 30px">
+      <source src="samples/speaker_embedding/spk2-embeddingAudio-2.wav" type="audio/wav">
+    </audio>  
+    from Spk B (male). <br />
+    
+    The <b>Ground-Truth</b> refers to the original audio played by the loudspeaker.
+    
+<!--     spk2, The results of different SpeakerEmbedding audio including random noise (Rec#0), 
     audio#1 <audio controls="controls" controlsList="nodownload" oncontextmenu="return false" style="width: 225px; height: 30px"><source src="samples/speaker_embedding/spk2-embeddingAudio-1.wav" type="audio/wav"></audio>, 
-    and audio#2 <audio controls="controls" controlsList="nodownload" oncontextmenu="return false" style="width: 225px; height: 30px"><source src="samples/speaker_embedding/spk2-embeddingAudio-2.wav" type="audio/wav"></audio>.
+    and audio#2 <audio controls="controls" controlsList="nodownload" oncontextmenu="return false" style="width: 225px; height: 30px"><source src="samples/speaker_embedding/spk2-embeddingAudio-2.wav" type="audio/wav"></audio>. -->
   </p>
   <table>
     <thead>
@@ -174,8 +193,8 @@
 </div>
 
 <div>
-  <h3 id="IMU"> 3. Entend to IMU (Section XX) </h3>
-  <p> The system setup is shown in Figure xx of the submission. </p>
+  <h3 id="IMU"> 3. Entension to IMU </h3>
+  <p> The audio samples are recovered by VibSpeech when we applied VibSpeech on IMU-measured vibration signals (Section 8). The system setup is shown in Figure 23 of the submission. </p>
   <table>
     <thead>
     <tr>
